@@ -1,0 +1,23 @@
+class Practice3
+{
+  public static void main(String [] args)
+  {
+      int num=7;
+      int i;
+      for(i=2;i<num;i++)
+      {
+          if(num%i==0)
+          {
+            break;
+          }
+      }
+      if(num==i)
+      {
+          System.out.println("it is Prime number");
+      }
+      else
+      {
+          System.out.println("it is Not a Prime number");
+      }
+}
+}
